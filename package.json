@@ -1,0 +1,19 @@
+{
+  "name": "js-codemod",
+  "version": "1.0.0",
+  "description": "",
+  "main": "antd-getFieldProps-to-getFieldDecorator.js",
+  "dependencies": {
+    "jest": "^16.0.1",
+    "jscodeshift": "^0.3.29"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest --bail"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "author": "Welogix",
+  "license": "MIT"
+}

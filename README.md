@@ -16,7 +16,9 @@ that help upgrade the ant-design getFieldProps API change in the application cod
   * still experimental, transformed code may cause lint error.
   * `antd-getFieldProps-to-getFieldDecrorator.js` only support `getFieldProps` written as the JSX attribute.
     Codes like the following format can't be transformed:
-      ```js
+
+
+      ```jsx
         const { labelName, rules, fieldProps, formhoc: { getFieldProps } } = this.props;
         const fieldProps = getFieldProps(field, { rules, ...fieldProps }); 
         return (
